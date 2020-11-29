@@ -65,6 +65,7 @@ int main(){
 ```
 ***
 ```cpp
+#define  "因为Markdown编译错误，将82行的代码注释掉了，需要编译的时候自行取消注释，谢谢。"
 #include <bits/stdc++.h>
 #define For(i,a,b) for (int i=(a);i<=(b);i++)
 using namespace std;
@@ -77,7 +78,7 @@ char s[N],t[N];
 int aa[N],bb[N];
 int dp[N][2][2][2][3][4];
 int jd[3]={3,3,1};
-int nd[3][3]={{0,1,0},{0,0,0},{1}};
+// int nd[3][3]={{0,1,0},{0,0,0},{1}};
 int solve(){
 	memset(dp,63,sizeof dp);
 	dp[0][0][0][0][0][0]=0;
